@@ -1,0 +1,49 @@
+.TodoCounter {
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+  padding: 0px 40px 16px;
+  font-weight: normal;
+  width: calc(100% - 62px);
+  max-width: 650px;
+  }
+
+.Section__Text {
+    font-size: 30px;
+} 
+.bold {
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  .bar {
+    width: calc(100% - 60px);
+    height: 30px;
+    background-color: #e4e1e5a2;
+    margin: 30px auto;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+  .progress {
+    height: 100%;
+    background: linear-gradient( to right, #90b78e , rgb(27, 220, 39)  );
+    border-radius: 20px;
+  }
+  
+  
+  @media (max-width: 930px) {
+    .ToDoCounter {
+      padding: 12px 2px 0px;
+      background-color: rgba(73, 224, 235, 0.803);
+      border: #000000 solid;
+      border-radius: 1.5rem;
+      margin-bottom: 20px;
+      width: calc(100% - 10px);
+    }
+    .ToDoCounter--completed {
+      min-width: 315px;
+    }
+    .bar {
+      margin: 12px 18px 20px;
+    }
+  }
