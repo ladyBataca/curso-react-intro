@@ -5,7 +5,7 @@ body {
   padding: 0;
   color: #1E1E1F;
   font-family: 'Nunito', Arial, Helvetica, sans-serif;
-  background: radial-gradient(ellipse at 0% 125%,
+  background: radial-gradient(circle at 0% 125%,
     #3dc248 12%,
     #bb8bc9 27%,
     #b77795 40%,
@@ -32,7 +32,7 @@ h1 {
 @media (max-width: 930px) {
   body {
     background: radial-gradient(circle at 50% 120%, 
-   #3dc248 12%,
+    #3dc248 12%,
     #bb8bc9 27%,
     #b77795 40%,
     #8dcee6 70%,

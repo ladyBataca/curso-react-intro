@@ -1,9 +1,9 @@
 .ToDoSearch:hover {
     position: relative;
-    box-shadow: 5px 14px 0px #000000;
+    box-shadow: 5px 11px 0px #121a66;
   }
   .ToDoSearch:focus {
-    outline-color: #d92e7f;
+    outline-color: #4479c7;
   } 
   
   .search-container {

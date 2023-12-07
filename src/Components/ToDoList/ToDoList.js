@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./ToDoList.css"
 function ToDoList({children}) {
   return (
-    <ul>
+    <ul className='ToDoList'>
         {children}
     </ul>
   )

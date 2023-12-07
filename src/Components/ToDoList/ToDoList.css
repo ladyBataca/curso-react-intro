@@ -1,0 +1,15 @@
+.ToDoList {
+    margin: 0;
+    max-width: 700px;
+    min-width: 600px;
+    padding: 0px 16px;
+  }
+  @media (max-width: 930px) {
+    .ToDoList {
+      max-width: 400px;
+      min-width: calc(100% - 30px);
+      padding: 0px;
+      margin-bottom: 50px;
+      margin: 0 auto;
+    }
+  }
