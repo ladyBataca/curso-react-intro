@@ -41,23 +41,7 @@
     font-size: 28px;
     font-weight: bold;
   }
-  .Icon-check {
-    position:absolute;
-    left: 12px;
-  }
-  .Icon-check--active {
-    color: #4caf50;
-  }
-  .Icon-delete {
-    position: absolute;
-    right: 12px;
-    font-size: 32px;
-  }
-  .Icon-delete:hover {
-    color: red;
-  }
-  
-  
+
   @media (max-width: 930px) {
     .ToDoItem--completed {
       opacity: .9;

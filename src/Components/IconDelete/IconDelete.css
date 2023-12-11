@@ -1,0 +1,8 @@
+.Icon-delete {
+    position: absolute;
+    right: 12px;
+    font-size: 32px;
+  }
+  .Icon-delete:hover {
+    color: red;
+  }
