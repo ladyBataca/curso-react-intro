@@ -1,9 +1,8 @@
 import soundFileCompleted from '../../Assets/task_completed.mp3'
 import soundFileDeleted from '../../Assets/task_deleted.mp3'
-import { IconDelete } from '../IconDelete/IconDelete';
+import {TodoItemUI} from "./TodoItemUI";
 import "./TodoItem.css";
 import React from 'react';
-import { IConComplete } from '../CompleteIcon/IconComplete';
 
 
 function ToDoItem(props) {
@@ -19,22 +18,12 @@ function ToDoItem(props) {
     audioCompleted.play();
     props.onComplete();
   }
-
-
-  return (                                                                               // Creamos nuestra estructura JSX
-    <li className={`ToDoItem ${props.completed && "ToDoItem--completed"}`} >
-
-      <IConComplete
-        onClick={handleComplete}
-        completed={props.completed}
-      />
-      <p className={`ToDoItem-p ${props.completed && "ToDoItem-p--complete"}`}>
-        {props.text}
-      </p>
-      <IconDelete
-        onClick={handleDelete}
-      />
-    </li>
+  return (
+    <TodoItemUI
+    handleComplete = {handleComplete}
+    handleDelete = {handleDelete}
+    props = {props}
+    />
   );
 }
 

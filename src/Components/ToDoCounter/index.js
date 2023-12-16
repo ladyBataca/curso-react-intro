@@ -4,12 +4,10 @@ import audioSuccess from '..//../Assets/successSound.mp3'
 function ToDoCounter({ total, completed }) {
   const progressPercent = total > 0 ? Math.round(completed / total * 100) : 0;     // Calculamos el porcentage de los ToDos que se han completado
   const audioSucc = new Audio(audioSuccess);
-  function playSound() {
-    audioSucc.play();
-  }
+
   if (completed === total) {
     // Se ejecuta cuando todas las tareas están completadas
-    playSound();
+    audioSucc.play();
 
     return (
       <div className="ToDoCounter--completed">
